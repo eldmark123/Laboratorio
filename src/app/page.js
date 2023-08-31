@@ -19,6 +19,34 @@ export default function Home() {
             <span>Josh Carlson</span>
         </div>
       </header>
+      <section className ={styles.infoSection}>
+        <img
+        src='/Hola.avif'
+        alt='Imagen'
+        className={styles.image}/>
+        <div className= {styles.infoContainer}>
+          <span className={styles.title + " " + styles.yellowText}>Josh</span>
+          <br />
+          <span className={styles.title}>Carlson</span>
+        
+          
+          <div className={styles.list}>
+          </div>
+          <ul>
+            <li>
+              <span className={styles.grayText}>Age:</span> 27</li>
+            <li>
+            <span className={styles.grayText}>Nationality:</span> German</li>
+            <li>
+            <span className={styles.grayText}>Skill set:</span> Project Management and Financial Performance</li>
+            <li>
+            <span className={styles.grayText}>Langages:</span> English, German</li>
+            <li>
+            <span className={styles.grayText}>Academic information:</span> Mechanical Engineer </li>
+          </ul>
+          
+          </div>
+        </section>
     </main>
   )
 }
